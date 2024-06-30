@@ -16,7 +16,7 @@ ul {
 
 body, html{
 	font-family: 'Cardo', Georgia, "Times New Roman", serif;
-   width: 100%;
+   width: auto;
    height: auto;
 }
 
@@ -94,7 +94,6 @@ body, html{
  }
 
  #content-1 p{
-    text-align: center;
     color: #5e5e5e;
     font-size: 20px;
  }
@@ -118,7 +117,7 @@ body, html{
    opacity: 0.9;
  }
 
-#main-col h2{
+ h2{
    color:#5e5e5e;;
    font-weight: 300;
    line-height: 1.0;
@@ -202,10 +201,19 @@ body, html{
    background-color: #303030;
  }
 
- @media screen and (max-width: 700px) {
+ @media screen and (max-width: 930px) {
+   footer {
+       height: 600px;
+   }
+   
+   
+ }
+
+ @media screen and (max-width: 830px) {
    footer {
        height: 1000px;
    }
+   
    
  }
 
@@ -220,14 +228,63 @@ body, html{
 #div-map{
    height: auto; 
    width: 450px; 
-   padding: 40px; 
-   float: left;
+   padding: 30px; 
+   float: left;   
+   margin-left: 40px;
+   margin-top: 30px;
 }
+@media screen and (max-width: 930px) {
+   #div-map {
+      width: auto;
+      height: auto;
+      margin-left: 0;
+   }
+   
+ }
+
+ @media screen and (max-width: 805px) {
+   #div-map {
+      width: auto;
+      height: auto;
+      margin-left: 200px;
+   
+   }
+   
+ }
+
+@media screen and (max-width: 470px) {
+   #div-map {
+      width: auto;
+      height: auto;
+      margin-left: 0px;
+   }
+   
+ }
+
+ @media screen and (max-width: 350px) {
+   #div-map {
+      width: auto;
+      height: auto;
+      margin: 0px;
+   }
+   
+ }
+ @media screen and (max-width: 280px) {
+   #div-map {
+      width: auto;
+      height: auto;
+      margin: 0px;
+      padding: 0px;
+   }
+   
+ }
+ 
 
 @media screen and (max-width: 450px) {
    #index-map {
        width: 350px;
        height: 350px;
+      margin-left: 0px;
    }
    
  }
@@ -236,6 +293,7 @@ body, html{
    #index-map {
        width: 280px;
        height: 350px;
+       margin-left: 0px;
    }
    
  }
@@ -244,16 +302,27 @@ body, html{
    #index-map {
        width: 220px;
        height: 300px;
+       margin-left: 0px;
    }
    
  }
 
 
+
 #nav-footer{
 float: left;
-margin-left: 150px;
+margin-left: 300px;
 margin-top: 50px;
 }
+@media screen and (max-width: 470px) {
+   #nav-footer {
+      width: auto;
+      height: auto;
+      margin-left: 20px;
+   }
+ }
+
+
 #nav-footer h3{
    color:#8c8c8c;
 }
