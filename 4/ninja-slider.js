@@ -14,7 +14,8 @@ var nsOptions =
     navigateByTap: true,
     keyboardNav: true,
     n: false, //false to enable continous scrolling
- 
+    before: function (currentIdx, nextIdx, manual) { if (manual && typeof mcThumbnailSlider != "undefined") mcThumbnailSlider.display(nextIdx); },
+    license: "b2e98"
 };
 
 var nslider = new NinjaSlider(nsOptions);

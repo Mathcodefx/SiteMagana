@@ -17,7 +17,8 @@ var thumbnailSliderOptions =
     rightGap: null,
     keyboardNav: false,
     mousewheelNav: true,
-
+    before: function (currentIdx, nextIdx, manual) { if (typeof nslider != "undefined") nslider.displaySlide(nextIdx); },
+    license: "b2e98"
 };
 
 var mcThumbnailSlider = new ThumbnailSlider(thumbnailSliderOptions);
