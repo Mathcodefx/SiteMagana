@@ -355,9 +355,33 @@ margin-top: 50px;
    width: 100%;
 }
 
-#imageCarousel{
-   width: 100%;
+#nav-contatos{
+   text-align: center;
+   margin-left: auto; 
+   margin-right: auto;
+   padding-top: 120px;
+   padding-right: 200px;
 }
+#nav-contatos h3{
+   color:#515151;
+}
+#nav-contatos a{
+   color:#515151;
+   font-size: 25px;
+}
+#nav-contatos a:hover{
+   opacity: 0.3;
+   transition: 0.2s;
+}
+#nav-contatos li{
+   padding: 10px;
+}
+@media screen and (max-width: 930px) {
+   #nav-contatos {
+      padding-right: 0;
+   }
+ }
+
 
 
 
