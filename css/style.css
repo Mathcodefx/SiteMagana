@@ -492,3 +492,7 @@ margin-top: 50px;
 #nav-info li{
    padding: 10px;
 }
+
+#div-gallery a:hover{
+   opacity: 0.9;
+}
