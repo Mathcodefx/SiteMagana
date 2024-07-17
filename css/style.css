@@ -176,10 +176,11 @@ padding: 10px;
     font-size: 20px;
  }
 
- #content-1 a{
-    color: #e3bb64;
+ #link-underline {
+    color: #f3bf50;
+    font-size: 20px;
  }
- #content-1 a:hover{
+ #link-underline:hover{
     text-decoration: underline;
     opacity: 0.5;
  }
@@ -455,4 +456,36 @@ margin-top: 50px;
 #img-coment{
    height: 400px;
    width: 500px;
+}
+
+
+#content-info{
+   background: #4b4b4b;
+   height: auto;
+   display: block;
+   align-items: center;
+   justify-content: center;
+
+}
+#nav-info{
+   justify-content: center;
+   align-items: center;
+   margin-left: auto; 
+   margin-right: auto; 
+   height: auto;
+}
+
+#nav-info h3{
+   color:#8c8c8c;
+}
+#nav-info a{
+   color:#8c8c8c;
+   font-size: 17px;
+}
+#nav-info a:hover{
+   opacity: 0.3;
+   transition: 0.2s;
+}
+#nav-info li{
+   padding: 10px;
 }
