@@ -119,7 +119,7 @@ padding: 10px;
 }
 
 
- /** carousel **/
+ /** carousel-index **/
 
  #carouselExampleInterval img{
    height: 410px;
@@ -275,7 +275,7 @@ padding: 10px;
  }
 
 
-
+ /** footer **/
 
  footer{
    float: left;
@@ -408,22 +408,6 @@ margin-top: 50px;
    padding: 10px;
 }
 
-
-
-#box-p{
-   border-top-left-radius: 5px;
-   border-top-right-radius: 5px;
-   border-bottom-left-radius: 5px;
-   border-bottom-right-radius: 5px;
-   box-shadow: 2px 2px 7px 2px rgba(197, 197, 197, 0.43);
-}
-
-#div-rotas{
-   background-color: aliceblue;
-   float: left;
-   width: 100%;
-}
-
 #nav-contatos{
    text-align: center;
    margin-left: auto; 
@@ -450,18 +434,27 @@ margin-top: 50px;
       padding-right: 0;
    }
  }
+ /** /footer **/
+ /** /index **/
+
+
+
+  /** sobre-nos **/
 
 #box-p{
    font-size: 20px;
    color:#111111;
 }
-
-#img-coment{
-   height: 400px;
-   width: 500px;
+#box-p1{
+   font-size: 20px;
+   color:#111111;
+   background-color: rgb(241, 241, 242);
 }
+ /** /sobre-nos **/
 
 
+
+/** fale-conosco **/
 #content-info{
    background: #4b4b4b;
    height: auto;
@@ -492,7 +485,10 @@ margin-top: 50px;
 #nav-info li{
    padding: 10px;
 }
+/** /fale-conosco **/
 
+
+/** gallery **/
 #div-gallery a:hover{
    opacity: 0.9;
 }
