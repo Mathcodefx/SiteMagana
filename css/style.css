@@ -15,7 +15,7 @@ ul {
 }
 
 body, html{
-	font-family: 'Cardo', Georgia, "Times New Roman", serif;
+	font-family: times New Roman, Arial, Verdana;
    width: auto;
    height: auto;
 }
@@ -127,7 +127,7 @@ padding: 10px;
  }
 
 #img-carousel{}
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
    #img-carousel {
     
        height: auto;
@@ -431,11 +431,21 @@ margin-top: 50px;
 #box-p{
    font-size: 20px;
    color:#111111;
+   font-family: times New Roman, Arial, Verdana;
+   width: 75%;
+   text-align: center; 
+   margin-left: auto; 
+   margin-right: auto;
 }
 #box-p1{
    font-size: 20px;
    color:#111111;
+   width: 100%;
+   text-align: center; 
+   margin-left: auto; 
+   margin-right: auto;
    background-color: rgb(241, 241, 242);
+   font-family: times New Roman, Arial, Verdana;
 }
  /** /sobre-nos **/
 
