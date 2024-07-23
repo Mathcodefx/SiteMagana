@@ -109,37 +109,55 @@ padding: 10px;
 
 #navbar-index ul li{
     padding: 0 20px 0;
-    
+    height: auto;
 }
 
 #navbar-index  a{
      color: #ffffffb4;
      font-size: 20px;
      padding: 10px 10px 5px 10px;
+     height: auto;
     
  }
 
  #navbar-index a:hover{
-    opacity: 0.4;
-    transition: 0.3s
+    
+    padding: 7px;
+    transition: 200ms;
+    height: auto;
+    opacity: 0.9;
+    border-bottom: #f3bf50 solid 5px;
 }
+
 
 
  /** carousel-index **/
 
- #img-carousel{
-   height: 400px;
-   width: 100%;
+ .carousel-control-prev-icon ,
+ .carousel-control-next-icon {
+    width: 50px; /* Aumenta o tamanho das setas */
+    height: 100px; /* Aumenta o tamanho das setas */
+}
+
+
+#aaa button{
+   width: 5%;
+  
+   height: 7px;
+}
+
+ .carousel-inner button{
+   width: 40%;
+   
  }
 
-#img-carousel{}
-@media screen and (max-width: 700px) {
-   #img-carousel {
-    
-       height: auto;
-       width: auto;
-   }
+ 
+ #img-carousel{
+   height: 90%;
+   width: auto;
+   object-fit: cover;
  }
+
 
  
 
@@ -148,7 +166,7 @@ padding: 10px;
 #content{
    height: auto;
    width: 100%;
- 
+   
 }
 
  h1{
