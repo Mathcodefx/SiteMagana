@@ -35,6 +35,12 @@ body, html{
    right: 0;
 }
 
+.whats-fixed-icon:hover{
+   opacity: 0.4;
+   transition: 0.3s
+}
+
+
 #logo{
    width: 100%;
    height: auto;
