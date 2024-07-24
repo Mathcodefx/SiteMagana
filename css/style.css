@@ -144,31 +144,34 @@ padding: 10px;
    height: 7px;
 }
 
- .carousel-inner button{
-   width: 40%;
-   
- }
+
 
  
- #img-carousel{
-  height: auto;
-   width: auto;
+ #carouselExampleInterval img{
+  height: 500px;
+   width: 70%;
   
  }
+ @media screen and (max-width: 600px) {
+   #carouselExampleInterval img {
+       height: 380px;
+       width: 100%;
+   }
+ }
  @media screen and (max-width: 410px) {
-   #img-carousel {
+   #carouselExampleInterval img {
        height: 290px;
        width: 100%;
    }
  }
  @media screen and (max-width: 330px) {
-   #img-carousel {
+   #carouselExampleInterval img {
        height: 260px;
        width: 100%;
    }
  }
  @media screen and (max-width: 305px) {
-   #img-carousel {
+   #carouselExampleInterval img {
        height: auto;
        width: 100%;
    }
