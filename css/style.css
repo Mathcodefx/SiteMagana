@@ -104,7 +104,6 @@ padding: 10px;
    #navbar-index {
        height: auto;
    }
-   
  }
 
 #navbar-index ul li{
@@ -142,7 +141,6 @@ padding: 10px;
 
 #aaa button{
    width: 5%;
-  
    height: 7px;
 }
 
@@ -153,11 +151,28 @@ padding: 10px;
 
  
  #img-carousel{
-   height: 90%;
+  height: auto;
    width: auto;
-   object-fit: cover;
+  
  }
-
+ @media screen and (max-width: 410px) {
+   #img-carousel {
+       height: 290px;
+       width: 100%;
+   }
+ }
+ @media screen and (max-width: 330px) {
+   #img-carousel {
+       height: 260px;
+       width: 100%;
+   }
+ }
+ @media screen and (max-width: 305px) {
+   #img-carousel {
+       height: auto;
+       width: 100%;
+   }
+ }
 
  
 
